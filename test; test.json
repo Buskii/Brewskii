@@ -2,11 +2,11 @@
 	"_meta": {
 		"sources": [
 			{
-				"json": "Nerdly",
-				"abbreviation": "NH",
-				"full": "Noble Background Expansion",
+				"json": "Brewskii",
+				"abbreviation": "YGtT",
+				"full": "Yustra's Guide to Trellym",
 				"authors": [
-					"Nerd Herd"
+					"Brewskii"
 				],
 				"version": "1.0.0",
 				"targetSchema": "1.0.0"
