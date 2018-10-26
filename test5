@@ -1,0 +1,77 @@
+{
+	"_meta": {
+		"sources": [
+			{
+				"json": "Brewskii",
+				"abbreviation": "YGtT",
+				"full": "Yustra's Guide to Trellym",
+				"authors": [
+					"Brewskii"
+				],
+				"version": "1.0.0",
+				"targetSchema": "1.0.0"
+			}
+		],
+		"dateAdded": 0
+	},
+	"background": [
+		{
+			"name": "Knight of the Silver Thorn",
+			"source": "YGtT",
+			"page": 150,
+			"skillProficiencies": [
+				{
+					"history": true,
+					"survival": true
+				}
+			],
+			"entries": [
+				{
+					"type": "list",
+					"style": "list-hang-notitle",
+					"items": [
+						{
+							"type": "item",
+							"name": "Skill Proficiencies",
+							"entry": "{@skill History}, {@skill Survival}"
+						},
+						{
+							"type": "item",
+							"name": "Tool Proficiencies",
+							"entry": "One type of artisan's tools"
+						},
+						{
+							"type": "item",
+							"name": "Languages",
+							"entry": "Draconic"
+						},
+						{
+							"type": "item",
+							"name": "Equipment",
+							"entry": "An {@item emblem|phb} of the symbol of the Silver Thorn, the tool you choose for this background's tool proficiency ({@filter artisan's tools|items|source=phb|miscellaneous=mundane|type=artisan tool}), and a {@item pouch|phb} containing 15gp"
+						}
+					]
+				},
+				{
+					"name": "Overview:",
+					"type": "entries",
+					"entries": [
+						"You are one of the Knights of the Silver Thorn, an arbiter of the covenant that binds the people of Gaea. You have been knighted by a Warden in front of the Bonsai on Tenrou island after years of training. You have likely been granted a degree of automonany allowing you to travel the land as you please.",
+            "You have the title of 'Sir'.",
+            "You can choose one of the <b>Features</b> listed below."
+					]
+				},
+				{
+					"name": "Feature: Judgement of the Wise",
+					"type": "entries",
+					"entries": [
+						"People respect your and your judgement, making it easier to persuade people to a course of action or even punish someone for a wrong. Even if you do not know what you are talking about, some people are inclined to assume you do, especially when you maintain your calm. You are also trained in meditation and often take time to think on complicated matters in hopes of unraveling them."
+					],
+					"data": {
+						"isFeature": true
+					}
+				}
+			]
+		}		
+	]
+}
