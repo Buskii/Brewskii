@@ -1,0 +1,189 @@
+{
+	"_meta": {
+		"sources": [
+			{
+				"json": "Sylken (Dawn)",
+				"abbreviation": "Tom",
+				"full": "Buskiihomebrew",
+				"authors": [
+					"Buskiihomebrew"
+				],
+				"version": "1.0.0",
+				"targetSchema": "1.0.0"
+			}
+		]
+	},
+	"race": [
+		{
+			"name": "Sylken",
+			"source": "Brewskii",
+			"size": "M",
+			"speed": 30,
+			"ability": {
+				"con": 2
+			},
+			"entries": [
+				{
+					"name": "Age",
+					"type": "entries",
+					"entries": [
+						"Sylken are awakened fully mature and do not physically age. It is not yet known how old they live until."
+					]
+				},
+				{
+					"name": "Alignment",
+					"type": "entries",
+					"entries": [
+						"A sylken's cycle plays a large part in determining their personality. Due to their honest and direct nature in service of the Obsidian Tree they tend toward lawful good. On other planes they tend toward chaotic good.."
+					]
+				},
+				{
+				    "type": "entries",
+				    "name": "Size",
+				    "entries": [
+				        "Sylken range from under 5 to over 6 feet tall and have slender builds. Your size is Medium."
+				    ]
+				},
+				{
+					"name": "Luminescent Cells",
+					"entries": [
+						"As an action you can cause parts of your body to illuminate. You spread dim green light in a range of 20 feet centered on yourself. You can use an action to end this effect."
+					],
+					"type": "entries"
+				},
+				{
+					"name": "Awakened Senses",
+					"entries": [
+						"You have proficiency with Nature and one of the following skills of your choice: Arcana, Athletics, Persuasion, Stealth."
+					],
+					"type": "entries"
+				},
+				{
+					"name": "Shared Knowledge",
+					"entries": [
+						"When you make an Intelligence (History) check to recall a piece of information the Obsidian Tree knows, you may use this trait to be considered proficient in the History skill and add double your proficiency bonus to the check, instead of your normal proficiency. Once you use this trait, you can't use it again until you finish a short or long rest."
+					],
+					"type": "entries"
+				},
+				{
+					"name": "Languages",
+					"entries": [
+						"You can speak, read, and write Common and Sylvan."
+					],
+					"type": "entries"
+				}
+			],
+			"subraces": [
+				{
+					"name": "Dawn",
+					"ability": {
+						"cha": 1
+					},
+					"entries": [
+						{
+							"name": "Natural Conversationalist",
+							"entries": [
+								"You can speak, read, and write Primordial and one additional basic language of your choice."
+							],
+							"type": "entries"
+						},
+						{
+							"name": "Words of Aife",
+							"entries": [
+								"Your knowledge of previous conversations means you often know exactly what to say. When you make a Charisma skill check you can choose to roll an additional d20. This must be done before rolling your other dice. You choose which d20 is used for the persuasion roll. You can use this trait a number of times equal to your Charisma modifier (a minimum of once). You regain any expended uses when you finish a long rest."
+							],
+							"type": "entries"
+						}
+					]
+				},
+				{
+					"name": "Noon",
+					"ability": {
+						"str": 1
+					},
+					"entries": [
+						{
+							"name": "Photosynthesize",
+							"entries": [
+								"Your cycle was awakened during the rising sun and its power boosts your fortitude. Whilst stood in bright light you grow up to 4 inches taller and thicker. Whilst empowered in this way you have advantage on Constitution saving throws."
+							],
+							"type": "entries"
+						},
+						{
+							"name": "Niamh's Fortitude",
+							"entries": [
+								"You have advantage on saving throws against spells and magical effects that incapacitate, paralyze or stun."
+							],
+							"type": "entries"
+						}
+					]
+				},
+				{
+					"name": "Dusk",
+					"ability": {
+						"int": 1
+					},
+					"darkvision": 60,
+					"entries": [
+						{
+							"name": "Darkvision",
+							"entries": [
+								"You can see in dim light within 60 feet of you as if it were bright light, and in darkness as if it were dim light. Your ties to the Elemental Plane of Fire make your darkvision unusual: everything you see in darkness is in a shade of red."
+							],
+							"type": "entries"
+						},
+						{
+							"name": "Trahearne's Magic",
+							"entries": [
+								"You have resistance to fire damage."
+							],
+							"type": "entries"
+						},
+						{
+							"name": "Reach to the Blaze",
+							"entries": [
+								"You know the (@spell druidcraft) cantrip. When you reach 3rd level, you can cast the (@spell entangle) spell once per day; you must finish a long rest in order to cast the spell again using this trait. When you reach 5th level, you can also cast the (@spell warding bond) spell once per day, requiring no material components; you must finish a long rest in order to cast the spell again using this trait. Intelligence is your spellcasting ability for these spells."
+							],
+							"type": "entries"
+						}
+					]
+				},
+				{
+					"name": "Night",
+					"ability": {
+						"dex": 1
+					},
+					"darkvision": 120,
+					"entries": [
+						{
+							"name": "Superior Darkvision",
+							"entries": [
+								"Awakened in the darkness, you have superior vision in dark and dim conditions. You can see in dim light within 120 feet of you as if it were bright light, and in darkness as if it were dim light. You can't discern color in darkness, only shades of gray."
+							],
+							"type": "entries"
+						},
+						{
+							"name": "Sunlight Sensitivity",
+							"entries": [
+								"You have disadvantage on attack rolls and on Wisdom (Perception) checks that rely on sight when you, the target of your attack, or whatever you are trying to perceive is in direct sunlight."
+							],
+							"type": "entries"
+						},
+						{
+							"name": "Ambusher",
+							"entries": [
+								"You have advantage on attack rolls against any creature you have surprised."
+							],
+							"type": "entries"
+						},
+						{
+							"name": "Malomedies' Treads",
+							"entries": [
+								"Your base movement speed increases to 35 feet while in dim light or darkness."
+							],
+							"type": "entries"
+						}
+					]
+				}
+			]
+		},
