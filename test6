@@ -1,0 +1,78 @@
+{
+	"_meta": {
+		"sources": [
+			{
+				"json": "Brewskii",
+				"abbreviation": "YGtT",
+				"full": "Yustra's Guide to Trellym",
+				"authors": [
+					"Brewskii"
+				],
+				"version": "1.0.0",
+				"targetSchema": "1.0.0"
+			}
+		],
+		"dateAdded": 0
+	},
+	"background": [
+		{
+			"name": "Knight of the Silver Thorn",
+			"source": "YGtT",
+			"page": 150,
+			"skillProficiencies": [
+				{
+					"history": true,
+					"survival": true
+				}
+			],
+			"entries": [
+				{
+					"type": "list",
+					"style": "list-hang-notitle",
+					"items": [
+						{
+							"type": "item",
+							"name": "Skill Proficiencies",
+							"entry": "{@skill History}, {@skill Survival}"
+						},
+						{
+							"type": "item",
+							"name": "Tool Proficiencies",
+							"entry": "One type of artisan's tools"
+						},
+						{
+							"type": "item",
+							"name": "Languages",
+							"entry": "Draconic"
+						},
+						{
+							"type": "item",
+							"name": "Equipment",
+							"entry": "An {@item emblem|phb} of the symbol of the Silver Thorn, the tool you choose for this background's tool proficiency ({@filter artisan's tools|items|source=phb|miscellaneous=mundane|type=artisan tool}), and a {@item pouch|phb} containing 15 gp"
+						}
+					]
+				},
+				{
+					"name": "Samuraihood:",
+					"type": "entries",
+					"entries": [
+						"Samurai are a different class of nobility from others, with their own hierarchy and structure. Others tend to view them with respect, acting as stalwart judges and defenders of the people, though some can become terrifying in their cold logic and strict lawfulness.",
+						"You may consider adding to your equipment a small banner carrying a symbol of your nobility, such as a sheet of paper with a crest drawn in ink or a wooden scroll with a crest burned into the surface. You may also consider noting that one piece of your equipment is embellished with the same symbol, or a more personal one, such as a crest on your chest armor or hilt of your sword.",
+						"You may choose to take the Judgement of the Wise feature over the Position of Privilege."
+					]
+				},
+				{
+					"name": "Feature: Squire",
+					"type": "entries",
+					"entries": [
+						"You have taken on a squire. You are responsible for their training and wellbeing, they are an extention of you and your place within the Silver Thorn. Your squire has a full set of characterisitcs, use the tables for the {@background acolyte} background in the Player's Handbook as the basis for their traits and motivations, modifying the entries when appropriate to suit their identity as a Silver Thorn operative. For instance, consider the words \"faith\" and \"faction\" to be interchangeable.	Your squire has two flaws instead of one.",
+						"Your squire will fight for you in combat. You select your squire combat statistics from among the following choices: {@creature bandit}, {@creature guard}, {@creature noble} or {@creature tribal warrior}. Your squire's creature choice has the following changes, their alignment changes to any lawful alignment, their weapon changes to a {@item emblem|shortsword}, they use a {@item shield|phb}, their armor changes to {@item hide armor|phb}. You control your squire in combat, but your DM might take control of your squire if they expereience fear, stress or wavering loyalty."
+					],
+					"data": {
+						"isFeature": true
+					}
+				}
+			]
+		}		
+	]
+}
