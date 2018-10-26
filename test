@@ -16,12 +16,13 @@
 	},
 	"background": [
 		{
-			"name": "Noble (Samurai)",
+			"name": "Knight of the Silver Thorn",
 			"source": "Yustra's Guide to Trellym",
+			"page": 150,
 			"skillProficiencies": [
 				{
 					"history": true,
-					"persuasion": true
+					"survival": true
 				}
 			],
 			"entries": [
@@ -32,7 +33,7 @@
 						{
 							"type": "item",
 							"name": "Skill Proficiencies",
-							"entry": "{@skill History}, {@skill Persuasion}"
+							"entry": "{@skill History}, {@skill Survival}"
 						},
 						{
 							"type": "item",
