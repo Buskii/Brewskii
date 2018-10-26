@@ -12,7 +12,7 @@
 				"targetSchema": "1.0.0"
 			}
 		],
-		"dateAdded": 1540162759
+		"dateAdded": 0
 	},
 	"background": [
 		{
@@ -53,7 +53,6 @@
 					]
 				},
         {
-        
           "name": "Overview",
           "type": "entries",
           "entries": [
@@ -70,16 +69,13 @@
 					"data": {
 						"isFeature": true
 					}
-				}
+				},
 		{
 					"name": "Feature: Arbiter",
 					"type": "entries",
 					"entries": [
 						"You receive shelter and succor from members of the Silver Thorn and those who are sympathetic to its aims. This help comes in the form of free shelter and meals, and healing when appropriate, as well as occasionally risky assistance, such as a band of local citizens rallying to aid a sorely pressed Knight, or those who support the Silver Thorn helping to smuggle a Knight out of town when he or she is being hunted unjustly."
             ],
-					"data": {
-						"isFeature": true
-					}
 				}				
 			]
 		},
