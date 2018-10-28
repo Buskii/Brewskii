@@ -17,7 +17,7 @@
 	"background": [
 		{
 			"name": "Knight of the Silver Thorn",
-			"source": "YGtT",
+			"source": "Brewskii",
 			"page": 150,
 			"skillProficiencies": [
 				{
@@ -94,7 +94,17 @@
 						"Your bond might be associated with other members of the Silver Thorn, or a location or an object that is important to them. The ideal you strive for is probably in keeping with the covanent or principles of the Silver Thorn, but might be more personal in nature."
 					]
 				}				
+			],
+		"toolProficiencies": [
+				{
+					"choose": {
+						"from": [
+							"musical instrument",
+							"artisan's tools"
+						]
+					}
+				}
 			]
-		}	
+	}
 	]
 }
