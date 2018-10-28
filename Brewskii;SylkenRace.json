@@ -2,11 +2,11 @@
 	"_meta": {
 		"sources": [
 			{
-				"json": "Sylken (Dawn)",
-				"abbreviation": "Tom",
-				"full": "Buskiihomebrew",
+				"json": "Brewskii",
+				"abbreviation": "YGtT",
+				"full": "Yustra's Guide to Trellym",
 				"authors": [
-					"Buskiihomebrew"
+					"Brewskii"
 				],
 				"version": "1.0.0",
 				"targetSchema": "1.0.0"
@@ -17,6 +17,7 @@
 		{
 			"name": "Sylken",
 			"source": "Brewskii",
+			"page": 150,
 			"size": "M",
 			"speed": 30,
 			"ability": {
@@ -142,7 +143,7 @@
 						{
 							"name": "Reach to the Blaze",
 							"entries": [
-								"You know the (@spell druidcraft) cantrip. When you reach 3rd level, you can cast the (@spell entangle) spell once per day; you must finish a long rest in order to cast the spell again using this trait. When you reach 5th level, you can also cast the (@spell warding bond) spell once per day, requiring no material components; you must finish a long rest in order to cast the spell again using this trait. Intelligence is your spellcasting ability for these spells."
+								"You know the {@spell druidcraft} cantrip. When you reach 3rd level, you can cast the {@spell entangle} spell once per day; you must finish a long rest in order to cast the spell again using this trait. When you reach 5th level, you can also cast the {@spell warding bond} spell once per day, requiring no material components; you must finish a long rest in order to cast the spell again using this trait. Intelligence is your spellcasting ability for these spells."
 							],
 							"type": "entries"
 						}
@@ -186,4 +187,6 @@
 					]
 				}
 			]
-		},
+		}
+		]
+		}
