@@ -1,0 +1,37 @@
+{
+	"_meta": {
+		"sources": [
+			{
+				"json": "Brewskii",
+				"abbreviation": "YGtT",
+				"full": "Yustra's Guide to Trellym",
+				"authors": [
+					"Brewskii"
+				],
+				"version": "1.0.0",
+				"url": "https://github.com/TheGiddyLimit/homebrew",
+				"targetSchema": "1.0.0"
+			}
+		],
+		"dateAdded": 0
+	},
+	"feat": [
+		{
+			"name": "Goldhand Diplomacy",
+			"source": "Brewskii",
+			"entries": [
+			"You have developed a deep distrust or hatred toward a particular race. Choose a playable race, you gain a number of traits in relation to your chosen race. You can select this feat multiple times. Each time you do so, you must choose a different playable race.",
+			"You gain the following traits:",
+				{
+					"type": "list",
+					"items": [
+						"You gain a bonus +1 to attacks rolls you make against your chosen race.",
+						"You have advantage on saving throws against your chosen race.",
+						"You have advantage on intimidation checks against your chosen race.",
+						"Every creature friendly towards you within 50 feet that can see and hear you has disadvantage on Charisma skills against your chosen race."						
+					]
+				}				
+			]
+		}
+	]
+}
